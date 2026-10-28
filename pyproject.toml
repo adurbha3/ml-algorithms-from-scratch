@@ -1,0 +1,11 @@
+[project]
+name = "ml-algorithms-from-scratch"
+version = "0.1.0"
+description = "Linear regression, logistic regression, a CART decision tree, k-means, and Bayesian linear regression implemented from first principles with NumPy only, each verified against scikit-learn"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
